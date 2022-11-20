@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Aspose.Cells;
+
+nmaespace SampleProject
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            // directory path for input excel file.
+            string dirPath = "F:\WorldwideRigCountOct2022\";
+
+            //load input xls file inside the aspose.cells workbook object.
+            Aspose.Cells.Workbook workbook = new Workbook (dirPath + "WorldwideRigCountOct2022.xls");
+
+            //save the workbook in output csv format.
+            workbook.Save(dirpath + "output.csv", SaveFormat.CSV);
+        }
+    }
