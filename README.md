@@ -1,1 +1,2 @@
-# XLS-to-csv    i m pranjal pramod pathak sharing a c# code for converting excel file into csv format.
+Name:- Pranjal Pramod Pathak
+assignment :- converts excel file  into a CSV (comma delimited) file on the local drive.
